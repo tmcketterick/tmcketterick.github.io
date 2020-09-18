@@ -3,12 +3,10 @@ title: "Pandas Cheat Sheet"
 date: 2020-09-18
 tags: [pandas, python, cheat sheet]
 header:
-  image: "/images/pandas_cheat_sheet/pandas.png"
+  image: "/images/2020-09-18-pandas-cheat-sheet/pandas.png"
 excerpt: "Python, Pandas, Cheat sheet"
 mathjax: "true"
 ---
-
-# H1 Heading
 
 ```python
 import pandas as pd
