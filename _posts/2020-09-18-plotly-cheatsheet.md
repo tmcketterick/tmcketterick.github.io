@@ -130,11 +130,5 @@ fig=go.Figure(data=[data1, data2, data3], layout=layout)
 fig.show("svg")
 ```
 
+![alt]({{ site.url }}{{ site.baseurl }}/images/2020-09-18-plotly-cheatsheet/plotly_001.svg)
 
-![svg](/../images/2020-09-18-plotly-cheatsheet/plotly_001.svg)
-
-
-
-```python
-
-```
