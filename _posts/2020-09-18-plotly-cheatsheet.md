@@ -131,7 +131,7 @@ fig.show("svg")
 ```
 
 
-![svg](output_3_0.svg)
+![svg](/images/2020-09-18-plotly-cheatsheet/plotly_001.svg)
 
 
 
