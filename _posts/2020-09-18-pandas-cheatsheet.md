@@ -1,13 +1,18 @@
----
-title: "Pandas Cheat Sheet"
-date: 2020-09-18
-tags: [pandas, python, cheat sheet]
-excerpt: "Python, Pandas, Cheat sheet"
-mathjax: "true"
----
+
 
 ```python
 import pandas as pd
+```
+
+
+```python
+# create dataframe
+df = pd.DataFrame.from_dict([{'column1': 'column1-value1',
+                              'column2': 'column2-value1',
+                              'column3': 'column3-value1'},
+                             {'column1': 'column1-value2',
+                              'column2': 'column2-value2',
+                              'column3': 'column3-value2'}])
 ```
 
 
@@ -25,14 +30,14 @@ df.to_csv('filename.csv', index=False)
 
 ```python
 # rename column
-df = df.rename(columns={"old_column_1": "new_column_1",
-                        "old_column_2": "new_column_2"})
+df = df.rename(columns={"column1": "new_column1",
+                        "column2": "new_column2"})
 ```
 
 
 ```python
 # drop column
-df = df.drop(['column_1', 'column_2'], axis=1)
+df = df.drop(['column3'], axis=1)
 ```
 
 
@@ -56,7 +61,7 @@ df['new_column'] = df.apply(lambda row: function(row['column_1'], row['column_2'
 
 ```python
 # loop through rows
-for index, row in df.iterrows:
+for index, row in df.iterrows():
     # read value
     val = row['column_name']
     # write value if condition met
