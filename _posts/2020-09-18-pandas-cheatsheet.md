@@ -1,4 +1,10 @@
-
+---
+title: "Pandas Cheatsheet"
+date: 2020-09-18
+tags: [python, pandas, datascience]
+excerpt: "Python, Pandas, Datascience"
+mathjax: "true"
+---
 
 ```python
 import pandas as pd

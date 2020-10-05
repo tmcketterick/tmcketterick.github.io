@@ -1,4 +1,10 @@
-
+---
+title: "Tensorflow Cheatsheet"
+date: 2020-09-18
+tags: [tensorflow, pandas, datascience]
+excerpt: "Tensorflow, Pandas, Datascience"
+mathjax: "true"
+---
 
 ```python
 import numpy as np

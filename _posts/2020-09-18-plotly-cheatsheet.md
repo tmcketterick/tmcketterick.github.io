@@ -1,4 +1,10 @@
-
+---
+title: "Plotly Cheatsheet"
+date: 2020-09-18
+tags: [plotly, pandas, datascience]
+excerpt: "Plotly, Pandas, Datascience"
+mathjax: "true"
+---
 
 ```python
 import plotly.graph_objects as go
