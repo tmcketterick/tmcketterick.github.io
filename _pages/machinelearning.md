@@ -1,7 +1,7 @@
 ---
 layout: posts
-permalink: /data-wrangling/
-title: "Data Wrangling projects"
+permalink: /posts/
+title: "Posts"
 author_profile: true
 header:
   image: "/images/banner1.jpg"
